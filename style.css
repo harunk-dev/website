@@ -175,5 +175,5 @@ pre code { background: none; padding: 0; }
 .portrait { width: 100%; height: auto; border-radius: 10px; display: block; margin-top: 0.6rem; }
 @media (max-width: 720px) {
   .hero-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-  .portrait { order: -1; max-width: 300px; margin-top: 0; }
+  .portrait { order: -1; width: 180px; margin-top: 0; }
 }
