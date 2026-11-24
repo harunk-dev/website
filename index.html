@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harun Khan</title>
+  <meta name="description" content="Harun Khan — PhD student in Computer Science at Stanford working on formal verification, SMT solving and the Lean theorem prover.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>∀</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="wrap nav">
+      <a class="brand" href="#top">Harun Khan</a>
+      <ul>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="cv.pdf">CV</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="wrap" id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Harun Khan</h1>
+        <p class="tagline">PhD student in Computer Science, Stanford University</p>
+        <p>
+          I work on <strong>formal verification</strong>: making automated reasoning tools
+          trustworthy by producing proofs that can be checked in the
+          <a href="https://lean-lang.org/">Lean</a> theorem prover. I'm a member of the
+          <a href="https://centaur.stanford.edu/">Stanford Center for Automated Reasoning (Centaur)</a>,
+          advised by <a href="https://theory.stanford.edu/~barrett/">Prof. Clark Barrett</a>.
+          My recent work connects the SMT solver <a href="https://cvc5.github.io/">cvc5</a> to Lean,
+          including verified bit-blasting and proof rules for nonlinear and transcendental arithmetic.
+        </p>
+        <p>
+          Before Stanford I studied mathematics at Imperial College London, where I started
+          formalizing mathematics in Lean with <a href="https://www.imperial.ac.uk/people/k.buzzard">Prof. Kevin Buzzard</a>.
+          I'm an IMO medalist, and I've trained Pakistan's IMO team.
+        </p>
+        <p class="links">
+          <a class="btn" href="mailto:harun19@stanford.edu">Email</a>
+          <a class="btn" href="cv.pdf">CV (PDF)</a>
+          <a class="btn" href="https://github.com/harunk-dev">GitHub</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>News</h2>
+      <ul class="news">
+        <li><span class="date">Jul 2026</span> <span>Started as a Research Intern at Google DeepMind (through Dec 2026).</span></li>
+        <li><span class="date">2025</span> <span><em>Interactive Bit Vector Reasoning using Verified Bitblasting</em> appeared at OOPSLA 2025.</span></li>
+        <li><span class="date">2025</span> <span><em>lean-smt</em> appeared at CAV 2025.</span></li>
+        <li><span class="date">2024</span> <span>Started my PhD at Stanford, supported by a School of Engineering Fellowship.</span></li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <p class="note">* denotes equal contribution.</p>
+      <ol class="pubs" reversed>
+        <li>
+          <span class="title">Formalization of a Proof Calculus for Incremental Linearization for Satisfiability Modulo Nonlinear Arithmetic and Transcendental Functions</span>
+          <span class="authors"><b>Harun Khan*</b>, Tomaz Mascarenhas*, et al.</span>
+          <span class="venue">Submitted</span>
+        </li>
+        <li>
+          <span class="title">Interactive Bit Vector Reasoning using Verified Bitblasting</span>
+          <span class="authors">Henrik Böving, Siddharth Bhat, Alex Keizer, Luisa Cicolini, Leon Frenot, Abdalrhman Mohamed, Leo Stefanesco, <b>Harun Khan</b>, et al.</span>
+          <span class="venue">OOPSLA 2025</span>
+        </li>
+        <li>
+          <span class="title">lean-smt: An SMT Tactic for Discharging Proof Goals in Lean</span>
+          <span class="authors">Abdalrhman Mohamed, Tomaz Mascarenhas, <b>Harun Khan</b>, et al.</span>
+          <span class="venue">CAV 2025</span>
+        </li>
+        <li>
+          <span class="title">Robust Mean Estimation by All Means</span>
+          <span class="authors">Reynald Affeldt, Clark Barrett, Alessandro Bruni, Ieva Daukantas, <b>Harun Khan</b>, et al.</span>
+          <span class="venue">ITP 2024</span>
+        </li>
+        <li>
+          <span class="title">Formalizing Fibonacci Squares</span>
+          <span class="authors"><b>Harun Khan</b></span>
+          <span class="venue">FMM Workshop, CICM 2021</span>
+        </li>
+      </ol>
+    </section>
+
+    <section id="research">
+      <h2>Research Experience</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>Google DeepMind</h3><span class="when">Jul 2026 – Dec 2026</span></div>
+        <p class="role">Research Intern</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Stanford Centaur</h3><span class="when">Jan 2023 – present</span></div>
+        <p class="role">with Prof. Clark Barrett</p>
+        <ul>
+          <li>Proved proof rules in Lean for incremental linearization and proof reconstruction for SMT-NLA and SMT-NTA.</li>
+          <li>Mechanized bit-blasting in Lean so that cvc5's bit-vector solver produces Lean-checkable proofs.</li>
+          <li>Proved the correctness of a robust mean estimation algorithm in Lean.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Stanford Theory</h3><span class="when">Jul 2023 – Mar 2024</span></div>
+        <p class="role">with Prof. Gregory Valiant</p>
+        <ul>
+          <li>Studied memory-sample lower bounds for linear regression with hyperplane oracles.</li>
+          <li>Explored progress metrics toward generalizing parity-learning analysis to continuous settings.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Imperial College London</h3><span class="when">Jul 2020 – Oct 2020</span></div>
+        <p class="role">Undergraduate research with Prof. Kevin Buzzard</p>
+        <ul>
+          <li>Formalized the finiteness of Fibonacci squares and the existence of solutions to Pell's equation in Lean, a problem from Freek Wiedijk's list. Presented at FMM 2021 and awarded the Imperial UROP Prize.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>Stanford University</h3><span class="when">2022 – present</span></div>
+        <p class="role">PhD, Computer Science (2024 – present) · MS, Symbolic Systems (2022 – 2024)</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Imperial College London</h3><span class="when">2019 – 2022</span></div>
+        <p class="role">BSc Mathematics, First Class Honours</p>
+      </div>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <div class="entry">
+        <div class="entry-head"><h3>IMO Trainer, Pakistan National Team</h3><span class="when">Jun – Jul 2021</span></div>
+        <p class="role">COMSATS University</p>
+        <p>Trained the six-member Pakistan IMO team in algebra, number theory, combinatorics and geometry; wrote problem sets, handouts and weekly tests and lectured daily.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Mathematics Instructor</h3><span class="when">Jul – Aug 2022</span></div>
+        <p class="role">King Abdullah University of Science &amp; Technology (KAUST)</p>
+        <p>Virtual summer program introducing gifted high-school students to advanced mathematics.</p>
+      </div>
+      <div class="entry">
+        <div class="entry-head"><h3>Competition Math Trainer</h3><span class="when">May 2020 – Jan 2022</span></div>
+        <p class="role">Areteem Institute</p>
+        <p>Coached Algebra Math Challenge I-B and II-B at the AMC 8 and AMC 10/12 levels.</p>
+      </div>
+    </section>
+
+    <section id="awards">
+      <h2>Awards &amp; Honors</h2>
+      <ul class="awards">
+        <li><b>Stanford School of Engineering Fellowship</b> 2024</li>
+        <li><b>International Mathematics Competition</b> First Prize (Gold) 2021, Second Prize 2020</li>
+        <li><b>Imperial College UROP Prize</b> 2020, for formalizing Fibonacci squares in Lean</li>
+        <li><b>Imperial College Mathematics Competition</b> 1st at Imperial, 10th in the UK (Round 1), 2019</li>
+        <li><b>International Mathematical Olympiad</b> Bronze Medal 2019, leader of the Pakistan team</li>
+        <li><b>Asian Pacific Mathematics Olympiad</b> Bronze 2019, 1st in Pakistan</li>
+        <li><b>Kangaroo Mathematics Competition</b> Gold 2019, Bronze 2017</li>
+        <li><b>Cambridge Outstanding Learner Award</b> Top in the World, IGCSE Mathematics 2016</li>
+      </ul>
+    </section>
+
+    <section id="service">
+      <h2>Service</h2>
+      <ul class="awards">
+        <li><b>Chair</b>, Imperial College Mathematics Competition (2021–22): grew a national competition to 200+ participants from six UK universities.</li>
+        <li><b>Head of Problem Selection</b>, Imperial College Mathematics Competition (2020–21).</li>
+        <li><b>Graduate Student Liaison</b>, Stanford Muslim Student Union (2024–25).</li>
+      </ul>
+    </section>
+
+    <section id="misc">
+      <h2>Outside Research</h2>
+      <p>I raced slalom and giant slalom on the Stanford Ski Racing Team. I also enjoy mountain biking, climbing, speedcubing,
+        competitive programming and puzzle games like Simon Tatham's collection, Snakebird and The Witness.</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>© 2026 Harun Khan · Last updated November 2026</p>
+  </footer>
+</body>
+</html>
