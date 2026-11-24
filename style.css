@@ -169,3 +169,5 @@ pre code { background: none; padding: 0; }
 .pubs .title a { color: var(--fg); }
 .pubs .title a:hover { color: var(--accent); }
 
+.themes { margin: 0 0 1rem; padding-left: 1.2rem; }
+.themes li { margin-bottom: 0.45rem; }
