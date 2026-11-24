@@ -29,7 +29,6 @@ A Jekyll site that GitHub Pages builds automatically. It has an academic home pa
 | `blog/` | Blog index plus `academic/` and `personal/` filters |
 | `_layouts/`, `_includes/` | Page templates |
 | `style.css` | All styles, with automatic light and dark mode |
-| `cv.pdf` | The CV linked from the nav |
 
 ## Preview locally
 
