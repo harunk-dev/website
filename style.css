@@ -177,3 +177,6 @@ pre code { background: none; padding: 0; }
   .hero-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .portrait { order: -1; width: 180px; margin-top: 0; }
 }
+
+/* Key terms in the intro */
+.hero strong { font-weight: 700; color: var(--fg); }
