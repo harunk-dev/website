@@ -1,0 +1,19 @@
+---
+layout: default
+---
+  <main class="wrap">
+    <article class="post">
+      <header class="post-header">
+        <p class="post-meta">
+          <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+          {% for c in page.categories %}<a class="tag tag-{{ c }}" href="{{ '/blog/' | append: c | append: '/' | relative_url }}">{{ c | capitalize }}</a>{% endfor %}
+        </p>
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}<p class="post-subtitle">{{ page.subtitle }}</p>{% endif %}
+      </header>
+      <div class="post-body">
+        {{ content }}
+      </div>
+    </article>
+    <p class="more"><a href="{{ '/blog/' | relative_url }}">← All posts</a></p>
+  </main>

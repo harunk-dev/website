@@ -1,0 +1,34 @@
+title: Harun Khan
+description: >-
+  Harun Khan, PhD student in Computer Science at Stanford working on formal
+  verification, SMT solving and the Lean theorem prover.
+author: Harun Khan
+
+# While the site lives at https://harunk-dev.github.io/website/ keep baseurl as "/website".
+# Once a custom domain is connected, set url to it (e.g. "https://harunkhan.org") and baseurl to "".
+url: "https://harunk-dev.github.io"
+baseurl: "/website"
+
+permalink: /blog/:year/:title/
+timezone: America/Los_Angeles
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: null
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,19 @@
+  <main class="wrap">
+    <section class="blog-head">
+      <h1>Blog</h1>
+      <p class="tagline">Notes on research, plus the occasional post about everything else.</p>
+      <nav class="filters" aria-label="Filter posts">
+        <a href="{{ '/blog/' | relative_url }}"{% if include.category == nil %} class="active"{% endif %}>All</a>
+        <a href="{{ '/blog/academic/' | relative_url }}"{% if include.category == 'academic' %} class="active"{% endif %}>Academic</a>
+        <a href="{{ '/blog/personal/' | relative_url }}"{% if include.category == 'personal' %} class="active"{% endif %}>Personal</a>
+      </nav>
+    </section>
+    <section>
+      {%- if include.category -%}
+        {%- assign cat_posts = site.categories[include.category] | default: empty -%}
+        {% include post-list.html posts=cat_posts hide_tags=true %}
+      {%- else -%}
+        {% include post-list.html posts=site.posts %}
+      {%- endif -%}
+    </section>
+  </main>
