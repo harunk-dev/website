@@ -169,3 +169,11 @@ pre code { background: none; padding: 0; }
 .pubs .title a { color: var(--fg); }
 .pubs .title a:hover { color: var(--accent); }
 
+
+/* Portrait */
+.hero-grid { display: grid; grid-template-columns: 1fr 250px; gap: 2.5rem; align-items: start; }
+.portrait { width: 100%; height: auto; border-radius: 10px; display: block; margin-top: 0.6rem; }
+@media (max-width: 720px) {
+  .hero-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .portrait { order: -1; max-width: 300px; margin-top: 0; }
+}
