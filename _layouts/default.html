@@ -21,7 +21,7 @@
 <body>
   <header class="site-header">
     <nav class="wrap nav">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      {% unless page.url == "/" %}<a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>{% endunless %}
       <ul>
         <li><a href="{{ '/#publications' | relative_url }}">Publications</a></li>
         <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
