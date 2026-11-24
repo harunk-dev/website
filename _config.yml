@@ -1,7 +1,8 @@
 title: Harun Khan
+tagline: Formal verification researcher · Stanford CS PhD
 description: >-
-  Harun Khan, PhD student in Computer Science at Stanford working on formal
-  verification, SMT solving and the Lean theorem prover.
+  Harun Khan is a PhD student in Computer Science at Stanford working on formal
+  verification in Lean, SMT solvers and AI for algorithmic discovery.
 author: Harun Khan
 
 url: "https://harunkhan.co"
@@ -18,6 +19,15 @@ highlighter: rouge
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+social:
+  name: Harun Khan
+  links:
+    - https://www.linkedin.com/in/harun-khan-b2a7163a9
+
+image: /photo.jpg
 
 feed:
   path: feed.xml
