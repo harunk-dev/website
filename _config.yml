@@ -4,10 +4,8 @@ description: >-
   verification, SMT solving and the Lean theorem prover.
 author: Harun Khan
 
-# While the site lives at https://harunk-dev.github.io/website/ keep baseurl as "/website".
-# Once a custom domain is connected, set url to it (e.g. "https://harunkhan.org") and baseurl to "".
-url: "https://harunk-dev.github.io"
-baseurl: "/website"
+url: "https://harunkhan.co"
+baseurl: ""
 
 permalink: /blog/:year/:title/
 timezone: America/Los_Angeles

@@ -35,7 +35,7 @@ A Jekyll site that GitHub Pages builds automatically. It has an academic home pa
 
 ```sh
 bundle install
-bundle exec jekyll serve --drafts   # http://localhost:4000/website/
+bundle exec jekyll serve --drafts   # http://localhost:4000/
 ```
 
 ## Deploy
